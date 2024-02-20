@@ -1,0 +1,12 @@
+form {
+    width: 600px; /* Bredden på din box, justera efter behov */
+    margin: 0 auto; /* Centrera boxen horisontellt */
+    padding: 20px; /* Utrymme inuti boxen */
+    background-color: #f0f0f0; /* Bakgrundsfärg på boxen */
+    border: 2px solid #ccc; /* Ram runt boxen */
+    border-radius: 10px; /* Rundade hörn för boxen */
+}
+
+form input {
+    margin: 10px;
+}

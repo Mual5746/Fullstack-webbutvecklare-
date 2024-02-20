@@ -1,0 +1,24 @@
+
+h1 {
+    color: blue;
+}
+.image-gallery {
+    display: flex;
+    justify-content: center; /* Sprider ut elementen jämnt över raden */
+    flex-wrap: wrap; /* Tillåter element att wrapa till nästa rad om de inte får plats */
+}
+
+
+.image-item {
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-item img {
+    width: 250px;
+    height: auto;
+}
+
+.image-item img:hover {
+    transform: scale(1.09); /* Förstorar bilden med 20% när musen sveper över */
+}

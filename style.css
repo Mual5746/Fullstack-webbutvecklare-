@@ -1,0 +1,48 @@
+/*selector {
+    property : value;
+} */
+body {
+    background-color: #87CEEB;
+    margin:auto 0;
+}
+.hero {
+    background-image: url(images/store.png);
+    height :600px;
+    
+}
+h1 {
+    color : green;
+    text-align: center;
+    cursor: pointer;
+    font-family: fantasy;
+    font-size: 3em
+}
+// style caskating style sheet, det betyder tar alltid den som kommer sist
+p {
+    color: green;
+}
+li {
+    list-style: none;
+}
+.nav {
+    display: flex;
+    background-color: #f0f0f0;
+    font-size: 3.7em
+    height: 40px;
+
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+
+
+.paragraph-box {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
