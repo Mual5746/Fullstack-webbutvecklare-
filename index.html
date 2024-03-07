@@ -6,32 +6,94 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="nav" >
+<body> 
+    <!--
+        <div class="nav" >
         <div class="main-nav">
             <a >Hem</a>
             <a href="./Page/frukt.html">Frukt</a>
             <a href="./Page/register.html">Register</a>
         </div>
      </div>
-    <h1 >Välkommen till din Online Fruktbutik!</h1>
-    <p> Vi är stolta över att erbjuda Sveriges <strong>färskaste och mest utsökta frukter</strong> , levererade direkt till din dörr inom kortast möjliga tid!</p>
-    <img src="images/store.png" alt="butik">
+    -->
+    
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img src="./images/logo.png" alt="" width="70px" height="40px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Page/frukt.html">Frukt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Page/register.html">Register</a>
+              </li>
+             
+         
+              </li>
+             
+            </ul>
+            <ul>
+                <li class="d-flex">
+                    <a class="nav-link active" aria-current="page" href="#contact">Kontakt</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Hero section-->
+      <section id="hero" class="hero-section" >
+        <h1 id="typing-text" >Välkommen till din Online Fruktbutik!</h1>
+        <img src="images/store.png" alt="butik">
+      </section>
+    <section id="about" class="about-section">
+        <div class="about-item">
+            <h2>Varför välja våra frukter?</h2>
+        <div class="paragraf-box">
+            <p> 🍎 **Äpplen:** Knapriga och saftiga äpplen från våra lokala odlingar är inte bara en smakupplevelse utan också en källa till viktiga näringsämnen och antioxidanter för din hälsa.</p>
 
-    <h2>Varför välja våra frukter?</h2>
-     <div class="paragraf-box">
-        <p> 🍎 **Äpplen:** Knapriga och saftiga äpplen från våra lokala odlingar är inte bara en smakupplevelse utan också en källa till viktiga näringsämnen och antioxidanter för din hälsa.</p>
+            <p> 🍌 **Bananer:** Våra bananer är inte bara fyllda med energi och näringsämnen utan kommer också från hållbara odlingar, vilket gör dem till ett val som är bra för både dig och planeten.</p>
 
-        <p> 🍌 **Bananer:** Våra bananer är inte bara fyllda med energi och näringsämnen utan kommer också från hållbara odlingar, vilket gör dem till ett val som är bra för både dig och planeten.</p>
+            <p> 🍊 **Apelsiner:** Saftiga och fulla av C-vitamin är våra apelsiner perfekta för att ge dig den uppiggande energikicken du behöver för att starta dagen på rätt sätt.</p>
 
-        <p> 🍊 **Apelsiner:** Saftiga och fulla av C-vitamin är våra apelsiner perfekta för att ge dig den uppiggande energikicken du behöver för att starta dagen på rätt sätt.</p>
+            <p> 🍇 **Druvor:** Våra druvor är inte bara en fest för smaklökarna utan är också laddade med antioxidanter och vitaminer som främjar din hälsa och välbefinnande.</p>
+    
+        </div>
+        <p> Oavsett om du letar efter en nyttig och läcker snacks eller frukt till din favorit smoothie, så har vi något för dig!</p>
 
-        <p> 🍇 **Druvor:** Våra druvor är inte bara en fest för smaklökarna utan är också laddade med antioxidanter och vitaminer som främjar din hälsa och välbefinnande.</p>
- 
-     </div>
-     <p> Oavsett om du letar efter en nyttig och läcker snacks eller frukt till din favorit smoothie, så har vi något för dig!</p>
+        <p> Utforska vårt sortiment och upptäck varför våra frukter är det bästa valet för dig och din familj! 🌟</p>
+        </div>
 
-     <p> Utforska vårt sortiment och upptäck varför våra frukter är det bästa valet för dig och din familj! 🌟</p>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="contact-section">
+        <div class="contact-box">
+            <form action="">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </form>
+
+        </div>
+        
+    </section>
+     
+
+     <!-- Script-->
+     <script src="script.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
