@@ -26,3 +26,20 @@ function typeWriter() {
 
 // Starta "typningen"
 typeWriter();
+
+
+
+/*
+<script>
+var typedElements = document.querySelectorAll('.auto-type');
+
+typedElements.forEach(function(element) {
+  var typed = new Typed(element, {
+    strings: ['Software Engineer', 'Fullstack Developer', 'Backend: C# .Net', 'Python and Java'],
+    typeSpeed: 50, // Samma hastighet som backSpeed
+    backSpeed: 50, // Samma hastighet som typeSpeed
+    loop: true
+  });
+});
+</script>
+*/
