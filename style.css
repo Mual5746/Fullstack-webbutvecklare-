@@ -68,6 +68,7 @@ section {
 
 /*----About sektion --------*/
 
+
 .paragraf-box {
     background-color: #f0f0f0;
     border: 2px solid black;
@@ -84,7 +85,35 @@ section {
     background-color:#5F9EA0;
     margin: 0 auto;
 }
+ /*-------Product section ----------*/ 
 
+ .product-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Tre rader: header, innehåll, footer */
+    
+  }
+  .product-header {
+    grid-column: 1 / -1; /* Börjar från kolumn 1 och sträcker sig över alla kolumner */
+    padding: 10px;
+  }
+  .product-hero {
+    display: grid; 
+    grid-template-columns: 200px auto;
+  }
+  .product-sidebar {
+    padding: 10px;
+  }
+  .product-content { 
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));; 
+    padding: 10px;
+  }
+  .product-footer {
+    grid-column: 1 / -1; /* Börjar från kolumn 1 och sträcker sig över alla kolumner */
+    padding: 10px;
+    
+  }
 /*------------ Kontakt sektion --------- */
 .contact-section {
     margin: 0 auto;
