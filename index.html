@@ -3,7 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FruktOnline</title>
-    <link rel="icon" href="images/favicon.ico">
+    <!--Adda icon för hemsidan samma som logon-->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     
@@ -41,73 +42,68 @@
       </div>
      </section>
     <!--About section-->
-    <section id="about" class="about-section">
-      <div class="contact-about" >
-        <h2>Varför välja våra frukter?</h2>
-          <div class="row">
-            <div class="col col-md-6 col-sm-12">
-              <div class="about-wrapper__image load-hidden" >
-                  <img
-                  alt="Profile Image"
-                  class="img-fluid rounded shadow-lg"
-                  height="auto"
-                  width="80%"
-                  src="images/about.jpeg"
-                />
-              </div>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title"> Om Oss</h2>
+        <div class="row about-wrapper" >
+          <div class="col-md-6 col-sm-12" >
+            <div class="about-wrapper__image load-hidden" >
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="80%"
+                src="images/about.jpeg"
+              />
             </div>
-            <div class="col col-md-6 col-sm-12">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden" >
               <div class="paragraf-box">
-                <p> 🍎 **Äpplen:** Knapriga och saftiga äpplen från våra lokala odlingar är inte bara en smakupplevelse utan också en källa till viktiga näringsämnen och antioxidanter för din hälsa.</p>
+                <p class="about-wrapper__info-text"> 🍎 **Äpplen:** Knapriga och saftiga äpplen från våra lokala odlingar är inte bara en smakupplevelse utan också en källa till viktiga näringsämnen och antioxidanter för din hälsa.</p>
     
-                <p> 🍌 **Bananer:** Våra bananer är inte bara fyllda med energi och näringsämnen utan kommer också från hållbara odlingar, vilket gör dem till ett val som är bra för både dig och planeten.</p>
+                <p class="about-wrapper__info-text"> 🍌 **Bananer:** Våra bananer är inte bara fyllda med energi och näringsämnen utan kommer också från hållbara odlingar, vilket gör dem till ett val som är bra för både dig och planeten.</p>
     
-                <p> 🍊 **Apelsiner:** Saftiga och fulla av C-vitamin är våra apelsiner perfekta för att ge dig den uppiggande energikicken du behöver för att starta dagen på rätt sätt.</p>
+                <p class="about-wrapper__info-text"> 🍊 **Apelsiner:** Saftiga och fulla av C-vitamin är våra apelsiner perfekta för att ge dig den uppiggande energikicken du behöver för att starta dagen på rätt sätt.</p>
     
-                <p> 🍇 **Druvor:** Våra druvor är inte bara en fest för smaklökarna utan är också laddade med antioxidanter och vitaminer som främjar din hälsa och välbefinnande.</p>
+                <p class="about-wrapper__info-text"> 🍇 **Druvor:** Våra druvor är inte bara en fest för smaklökarna utan är också laddade med antioxidanter och vitaminer som främjar din hälsa och välbefinnande.</p>
         
               </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label-subscribe">Prenumerera på vår veckobrev och få först tillgång till våra bästa erbjudanden</label>
+                </div>
+              
               <div id="mc_embed_shell">
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-                  <style type="text/css">
-                        #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
-                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                <style type="text/css">
+                      #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; width: 400px;}
+                      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                 </style>
                 <div id="mc_embed_signup">
-                    <form action="https://gmail.us22.list-manage.com/subscribe/post?u=9114bca7522609dd32a6a0ec6&amp;id=7a2dc8e4ef&amp;f_id=00d3c0e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                        <div id="mc_embed_signup_scroll"><h2>Prennumera till vårt veckobrev och få erbjudande varje vecka!!!</h2>
-                            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
+                    <form action="https://gmail.us21.list-manage.com/subscribe/post?u=d70c4abfa729d59c93615fdf7&amp;id=5b0444349a&amp;f_id=00feeee6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
                         <div id="mce-responses" class="clear foot">
                             <div class="response" id="mce-error-response" style="display: none;"></div>
                             <div class="response" id="mce-success-response" style="display: none;"></div>
                         </div>
-                    <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                        /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-                        <input type="text" name="b_9114bca7522609dd32a6a0ec6_7a2dc8e4ef" tabindex="-1" value="">
-                    </div>
                         <div class="optionalParent">
                             <div class="clear foot">
-                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Prenumerera">
                             </div>
                         </div>
                     </div>
                 </form>
-                </div>
-                <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-                
+          </div>
+          <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+          
             </div>
           </div>
-        
-        <p> Oavsett om du letar efter en nyttig och läcker snacks eller frukt till din favorit smoothie, så har vi något för dig!</p>
-
-        <p> Utforska vårt sortiment och upptäck varför våra frukter är det bästa valet för dig och din familj! 🌟</p>
-     
-
+        </div>
       </div>
-          
     </section>
-    <!-- ------- Product section------------->
+    <!---------------------Produkt sektion ------------------------------------->
     <section id="product">
       <div class="container-product">
         <div class="product-header">
@@ -194,14 +190,13 @@
               class="cta-btn cta-btn--resume"
               href="assets/resume.pdf"
             >
-              View Resume
+              Footer
             </a>
           </span>
         </div>
         
       </div>
     </section>
-    
     <!--contat section-->
     <section id="contact" class="contact-section">
         <div class="paragraf-box-contact">
